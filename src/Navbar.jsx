@@ -15,14 +15,7 @@ const Navbar = () => {
             >
               <div className="container-fluid">
                 <div className="d-flex justify-content-center align-items-center ms-lg-5 ps-lg-5">
-                  {/* <img
-                    // src=""
-                    className="image_Logo"
-                    //   width="40"
-                    //   height="40"
-                    // alt=""
-                    // style={{ borderRadius: "100px" }}
-                  /> */}
+                
                   <div className="image_Logo"></div>
 
                   <span
