@@ -1,0 +1,101 @@
+.navbar {
+  background: linear-gradient(90deg, #1e1e2c, #26263a);
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+  z-index: 1000;
+}
+
+.navbar-nav .nav-link {
+  color: #ededed;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ff6f61;
+  text-decoration: none;
+  transform: scale(1.1);
+}
+
+.navbar-nav .nav-link.active {
+  color: #ffd700;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.navbar-toggler {
+  border: 2px solid #ff6f61;
+  border-radius: 5px;
+  padding: 5px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  outline: none;
+}
+
+.navbar-toggler:hover {
+  background-color: #6fe7dd;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28237,237,237,1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+@media (max-width: 768px) {
+  .navbar-toggler {
+    background-color: #1e1e2c;
+    border-color: #6fe7dd;
+  }
+
+  .navbar-toggler:hover {
+    background-color: #ffd700;
+    border-color: #26263a;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28237,237,237,1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+}
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar .logo img {
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  box-shadow: 0 4px 6px rgba(255, 111, 97, 0.4);
+}
+
+.navbar .logo span {
+  color: #ff6f61;
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+}
+
+.navbar-nav .dropdown-menu {
+  background: #26263a;
+  border: none;
+  border-radius: 5px;
+}
+
+.navbar-nav .dropdown-item {
+  color: #ededed;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar-nav .dropdown-item:hover {
+  color: #ffd700;
+  background-color: #ff6f61;
+}
+
+.image_Logo {
+  background-image: url("/Muni.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
